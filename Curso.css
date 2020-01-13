@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    margin: 0;
+    font-family: Raleway;
+  }
+  a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.h2{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.header{
+    background-image: url(imgs/header-01.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 105%;
+    opacity: 0,5;
+    color: black;
+    font-size: 15px;
+    text-align:center;
+    padding: 50px;
+
+}
+
+.dropbtn {
+    background-image: url(imgs/menu-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .dropbtn{
+      background-size: 170%;
+  }}
+  @media screen and (max-width: 575px) {
+      .dropbtn{
+      background-size: 150%;
+      padding: 15px;
+  }}
+  
+
+  #background {
+    margin: 25px;
+    padding: 16px;
+
+  }
+  .imagemcomprida {
+      margin-left: -50px;
+  }
+  .accordion{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  font-family: Raleway;
+}
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+      }
+.SP{
+  margin: 25px;
+  padding: 16px;
+}

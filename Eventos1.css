@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    margin: 0;
+    font-family: Raleway;
+  }
+
+.header{
+    background-image: url(imgs/header-01.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 105%;
+    opacity: 0,5;
+    color: black;
+    font-size: 15px;
+    text-align:center;
+    padding: 50px;
+
+}
+@media screen and (max-width: 768px) {
+	.header{
+		width: 100%;
+  }}
+
+.dropbtn {
+    background-image: url(imgs/menu-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 768px) {
+    .dropbtn{
+      background-size: 170%;
+  }}
+  @media screen and (max-width: 575px) {
+      .dropbtn{
+      background-size: 150%;
+      padding: 15px;
+  }}
+
+.p{
+  text-align: center;
+}
+.contentorcolunas{
+  margin: 5%;
+}
+
+
+.p{
+  font: 36px;
+}

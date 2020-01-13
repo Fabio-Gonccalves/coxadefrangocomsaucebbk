@@ -1,0 +1,22 @@
+Página de entrada
+Curso
+Conteudo xN
+Listagem xM
+
+Componente 
+-Menu
+-Nagevação principal
+
+
+Navegação principal
+Menu
+Corpo: 
+ (listagens)....N elementos
+  Título + filtro
+  Foto e Título (par/impar)
+ (conteudos)
+  Título
+  Foto
+  Heading
+  SubHeading
+  Texto
